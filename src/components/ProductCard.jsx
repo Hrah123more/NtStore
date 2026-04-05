@@ -39,11 +39,16 @@ Hello, I want to buy this product:
           onClick={() => setShowImage(true)}
           className="overflow-hidden rounded group cursor-pointer"
         >
-          <img
+          {/* <img
             src={product.images[0]}
             alt={product.name}
             className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
-          />
+          /> */}
+          <img
+          src={product.images[0]}
+          alt={product.name}
+          className="max-w-[90%] max-h-[90%] rounded-lg shadow-lg"
+        />
         </div>
 
         <p className="text-gray-600 mt-3">
