@@ -4,7 +4,7 @@ function Navbar() {
       <h1 className="text-xl font-bold">TheNTStore 🎁</h1>
 
       <div className="flex gap-6">
-        <a href="#">Home</a>
+        <a href="/">Home</a>
         <a href="#products">Products</a>
         <a href="#contact">Contact</a>
       </div>
